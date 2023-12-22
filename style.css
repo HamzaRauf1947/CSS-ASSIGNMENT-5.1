@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    width: 100vw;
+    height: 5.625rem;
+    
+}
+
+/* BOX1 */
+.navLogo{
+    width: 6.25rem;
+    height: 4.375rem;
+    display: flex;
+    align-items: center;
+}
+.navLogo img{
+    width: 100vw;
+    height: 4.375rem;
+
+}
+
+/* Box2 */
+.navAnchors{
+    width: 28.8125rem;
+    display: flex;
+    column-gap: 1.25rem;
+
+}
+.navAnchors a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+.navAnchors a:hover{
+    color: rgb(87, 186, 219);
+}
+
+/* Box3 */
+.navButton button{
+    width: 8.0625rem;
+    height: 1.625rem;
+    background-color: rgb(87, 186, 219);
+    color: white;
+    border-color: rgb(87, 186, 219);
+    
+}
+.nav i{
+    display: none;
+    font-size: 1.5rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* HEROSECTION */
+.heroSection{
+    width: 100%;
+    height: 45vh;
+    background-image: url("./image2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* .heroSection img{
+    width: 100%;
+    height: 100%;
+} */
+.content{
+    text-align: center;
+    
+}
+.content h1{
+    font-size: 3.125rem;
+    
+}
+.content p{
+    margin-top: 0.4375rem;
+    line-height: 1.5625rem;
+    font-size: 1.3125rem;
+}
+.content button{
+    margin-top: 2.1875rem;
+    margin-right: 1.25rem;
+    padding: 0.5rem 0.625rem;
+    background-color: whitesmoke;
+    border-color:  whitesmoke;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 3.125rem;
+    
+}
+
+.footerContent h1{
+    font-size: 2.1875rem;
+    font-weight: 500;
+}
+.footerContent p{
+    font-size: 1rem;
+    
+}
+.footerContent{
+    margin-bottom: 1.25rem;
+}
+.footerBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1.25rem;
+}
+.footerBox .box{
+    width: 20%;
+    height: 17.6875rem;
+    
+    padding: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0rem 0.625rem 1.25rem, rgba(0, 0, 0, 0.23) 0rem 0.375rem 0.375rem;
+    
+}
+.footerBox .box h1{
+    font-size: 1.5625rem;
+    padding-top: 1.5625rem;
+
+}
+.footerBox .box i{
+    font-size: 5rem;
+    color: rgb(87, 186, 219);
+    
+}
+.footerBox .box p{
+    margin-top: 0.625rem;
+    line-height: 1.1875rem;
+}
+
+@media(max-width:1354px){
+    html{
+        font-size: 85%;
+    }
+    .navButton button{
+        width: 10rem;
+        height: 1.625rem;
+        
+    }
+
+@media(max-width:1170px){
+    html{
+        font-size: 82%;
+    }
+    .navButton button{
+        width: 10rem;
+        height: 1.7rem;
+        
+    }
+}
+@media(max-width:1116px){
+    html{
+        font-size: 80%;
+    }
+}
+@media(max-width:1089px){
+    html{
+        font-size: 79%;
+    }
+}
+@media(max-width:1078px){
+    html{
+        font-size: 79%;
+    }
+    .footerBox .box{
+        height: 19rem;
+    }
+}
+@media(max-width:918px){
+    html{
+        font-size: 75%;
+    }
+    .footerBox .box{
+        height: 19rem;
+    }
+    .navButton button{
+        width: 11rem;
+        height: 1.625rem;
+        
+    }
+}
+@media(max-width:872px){
+    html{
+        font-size: 72%;
+    }
+    .footerBox .box{
+        height: 19rem;
+    }
+    .navButton button{
+        width: 11rem;
+        height: 1.8rem;
+        
+    }
+}
+@media(max-width:836px){
+    html{
+        font-size: 70%;
+    }
+    .footerBox .box{
+        height: 20rem;
+    }
+    .navButton button{
+        width: 12rem;
+        height: 1.85rem;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 67%;
+    }
+    .footerBox .box{
+        height: 21rem;
+    }
+    .navButton button{
+        width: 12rem;
+        height: 1.9rem;
+    }
+}
+@media(max-width:736px){
+    html{
+        font-size: 65%;
+    }
+    .footerBox .box{
+        height: 21.5rem;
+    }
+    .navButton button{
+        width: 12.5rem;
+        height: 1.95rem;
+    }
+}
+@media(max-width:714px){
+    html{
+        font-size: 64%;
+    }
+    .footerBox .box{
+        height: 21.5rem;
+    }
+    .navButton button{
+        width: 12.5rem;
+        height: 2rem;
+    }
+}
+@media(max-width:704px){
+    html{
+        font-size: 63%;
+    }
+    .footerBox .box{
+        height: 22rem;
+    }
+    .navButton button{
+        width: 13.5rem;
+        height: 2rem;
+    }
+}
+
+@media(max-width:610px){
+    html{
+        font-size: 60%;
+    }
+    .footerBox .box{
+        height: 23rem;
+    }
+    .navButton button{
+        width: 13.5rem;
+        height: 2.1rem;
+    }
+}
+@media(max-width:566px){
+    html{
+        font-size: 56%;
+    }
+    .footerBox .box{
+        height: 24rem;
+    }
+    .navButton button{
+        width: 14.5rem;
+        height: 2.2rem;
+        font-size: 10.5px;
+    }
+}
+@media(max-width:518px){
+    html{
+        font-size: 50%;
+    }
+    .footerBox .box{
+        height: 24.5rem;
+    }
+    .navButton button{
+        width: 14rem;
+        height: 2.3rem;
+        font-size: 10px;
+    }
+}
+@media(max-width:441px){
+    html{
+        font-size: 50%;
+    }
+    .footerBox .box{
+        height: 24.5rem;
+    }
+    .navButton button{
+        width: 14rem;
+        height: 2.3rem;
+        font-size: 10px;
+    }
+    .navAnchors{
+        display: none;
+    }
+    .nav i{
+        display: flex;
+    }
+    
+
+}
+
+@media(max-width:462px){
+    html{
+        font-size: 45%;
+    }
+    .footerBox .box{
+        height: 24.5rem;
+    }
+    .navButton button{
+        width: 14rem;
+        height: 2.3rem;
+        font-size: 10px;
+    }
+    .navAnchors{
+        display: none;
+    }
+    .nav i{
+        display: flex;
+    }
+    .content button{
+        font-size: 10px;
+    
+    }
+    
+    
+
+}
+@media(max-width:410px){
+    html{
+        font-size: 45%;
+    }
+    .footerBox .box{
+        height: 24.5rem;
+    }
+    .footerBox .box h1{
+        font-size: 9px;
+    }
+    .navButton button{
+        width: 14rem;
+        height: 2.3rem;
+        font-size: 10px;
+    }
+    .content button{
+        font-size: 8px;
+    
+    }
+}
+@media(max-width:358px){
+    html{
+        font-size: 40%;
+    }
+    .footerBox .box{
+        height: 25rem;
+    }
+    .footerBox .box h1{
+        font-size: 7px;
+    }
+    .content button{
+        font-size: 6px;
+    
+    }
+
+}
+@media(max-width:312px){
+    html{
+        font-size: 35%;
+    }
+}
+@media(max-width:260px){
+    html{
+        font-size: 30%;
+    }
+    .footerBox .box{
+        height: 26rem;
+    }
+    .footerBox .box h1{
+        font-size: 5px;
+    }
+
+}
+@media(max-width:232px){
+    html{
+        font-size: 30%;
+    }
+    .footerBox .box{
+        height: 27rem;
+    }
+    .footerBox .box h1{
+        font-size: 5px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
